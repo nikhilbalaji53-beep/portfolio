@@ -53,7 +53,7 @@ Sri Chaitanya High School, Prakasam | Board of Secondary Education, Andhra Prade
 - Designed an interactive dashboard interface for tracking stock indicators, volatility, and trends.
 
 ### RecallAI — Customer Support Agent (Microsoft Hackathon)
-*Technologies: Python, FastAPI, React 19, TypeScript, Microsoft Fluent UI, RAG, WebSockets, Docker* | [GitHub](https://github.com/nikhilbalaji53-beep/smart-connections-ai)
+*Technologies: Python, FastAPI, React 19, TypeScript, Microsoft Fluent UI, RAG, WebSockets, Docker* | [GitHub](https://github.com/nikhilbalaji53-beep/smart-connections-ai) | [Live Demo](https://recallai-bev2.onrender.com/)
 - Architected an autonomous customer support agent for the Microsoft Hackathon featuring persistent cross-session memory and zero-repetition troubleshooting.
 - Engineered proactive history validation that audits past interactions to eliminate previously failed resolution steps and reduce customer effort.
 - Developed transparent "Memory Used" inspection telemetry and automated Tier-3 escalation handoff briefs with user sentiment calibration.
