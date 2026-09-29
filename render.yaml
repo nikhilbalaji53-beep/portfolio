@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: nikhil-balaji-portfolio
+    runtime: static
+    buildCommand: ""
+    staticPublishPath: .
