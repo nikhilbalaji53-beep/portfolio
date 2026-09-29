@@ -52,11 +52,11 @@ Sri Chaitanya High School, Prakasam | Board of Secondary Education, Andhra Prade
 - Integrated AI-assisted pattern recognition models to provide clear market insights without speculative guarantees.
 - Designed an interactive dashboard interface for tracking stock indicators, volatility, and trends.
 
-### Smart Traffic Management System
-*Technologies: Python, OpenCV, Computer Vision, IoT Sensors, Django, PostgreSQL* | [GitHub](https://github.com/[GitHub-Username]/smart-traffic-mgmt) | [Live Demo](https://[Live-Demo-URL])
-- Built a computer vision pipeline using OpenCV to detect and count vehicles at intersections in real time, enabling adaptive signal prioritization.
-- Implemented dynamic traffic signal timing engine that auto-adjusts green/red durations based on live traffic density and queue length.
-- Designed a congestion analytics dashboard for monitoring traffic flow, peak-hour patterns, and emergency vehicle preemption events.
+### RecallAI — Customer Support Agent (Microsoft Hackathon)
+*Technologies: Python, FastAPI, React 19, TypeScript, Microsoft Fluent UI, RAG, WebSockets, Docker* | [GitHub](https://github.com/nikhilbalaji53-beep/smart-connections-ai)
+- Architected an autonomous customer support agent for the Microsoft Hackathon featuring persistent cross-session memory and zero-repetition troubleshooting.
+- Engineered proactive history validation that audits past interactions to eliminate previously failed resolution steps and reduce customer effort.
+- Developed transparent "Memory Used" inspection telemetry and automated Tier-3 escalation handoff briefs with user sentiment calibration.
 
 ---
 
