@@ -1,0 +1,546 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Thirukovalluri Sri Nikhil Balaji — Developer Resume</title>
+  <style>
+    /* Reset & Base */
+    *, *::before, *::after {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+      color: #1f2937;
+      background-color: #f3f4f6;
+      line-height: 1.3;
+      font-size: 9.1pt;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    /* Screen Action Bar (Hidden when printed) */
+    .screen-action-bar {
+      max-width: 800px;
+      margin: 14px auto 10px auto;
+      background: #111827;
+      color: #ffffff;
+      padding: 9px 16px;
+      border-radius: 8px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+    }
+    .screen-action-bar .tip {
+      font-size: 12.5px;
+      color: #9ca3af;
+    }
+    .screen-action-bar .tip strong {
+      color: #38bdf8;
+    }
+    .action-group {
+      display: flex;
+      gap: 10px;
+    }
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      padding: 6px 14px;
+      font-size: 12px;
+      font-weight: 600;
+      border-radius: 6px;
+      cursor: pointer;
+      text-decoration: none;
+      border: none;
+      transition: all 0.2s ease;
+    }
+    .btn-print {
+      background: #2563eb;
+      color: #ffffff;
+    }
+    .btn-print:hover {
+      background: #1d4ed8;
+    }
+    .btn-portfolio {
+      background: #374151;
+      color: #f3f4f6;
+    }
+    .btn-portfolio:hover {
+      background: #4b5563;
+    }
+
+    /* Resume Document Wrapper (Single-Page Optimized) */
+    .resume-sheet {
+      width: 100%;
+      max-width: 800px;
+      margin: 0 auto 32px auto;
+      background: #ffffff;
+      padding: 20px 32px;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+      border-radius: 4px;
+    }
+
+    /* Candidate Header */
+    header {
+      text-align: center;
+      margin-bottom: 5px;
+      border-bottom: 1.5px solid #111827;
+      padding-bottom: 4px;
+    }
+    h1.name {
+      font-size: 17.5pt;
+      font-weight: 700;
+      color: #111827;
+      letter-spacing: 0.5px;
+      text-transform: uppercase;
+      margin-bottom: 2px;
+    }
+    .contact-row {
+      font-size: 8.8pt;
+      color: #4b5563;
+      margin-bottom: 2px;
+    }
+    .contact-row a {
+      color: #1f2937;
+      text-decoration: none;
+    }
+    .contact-row a:hover {
+      text-decoration: underline;
+    }
+    .divider-dot {
+      margin: 0 5px;
+      color: #9ca3af;
+    }
+    .links-row {
+      font-size: 8.8pt;
+      color: #2563eb;
+    }
+    .links-row a {
+      color: #2563eb;
+      text-decoration: none;
+      font-weight: 500;
+    }
+    .links-row a:hover {
+      text-decoration: underline;
+    }
+
+    /* Section Styles */
+    section {
+      margin-bottom: 5px;
+    }
+    section:last-child {
+      margin-bottom: 0;
+    }
+    .section-title {
+      font-size: 9.3pt;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.8px;
+      color: #111827;
+      border-bottom: 1px solid #d1d5db;
+      padding-bottom: 1.5px;
+      margin-bottom: 3px;
+    }
+
+    /* Summary */
+    .summary-text {
+      font-size: 8.6pt;
+      color: #374151;
+      line-height: 1.3;
+      text-align: justify;
+    }
+
+    /* Education */
+    .flex-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      margin-bottom: 1px;
+    }
+    .school-name {
+      font-size: 8.9pt;
+      font-weight: 700;
+      color: #111827;
+    }
+    .school-location {
+      font-size: 8.3pt;
+      color: #4b5563;
+      font-weight: 500;
+    }
+    .degree-name {
+      font-size: 8.6pt;
+      font-weight: 600;
+      color: #374151;
+    }
+    .degree-date {
+      font-size: 8.3pt;
+      color: #4b5563;
+    }
+    .coursework-line {
+      font-size: 8.3pt;
+      color: #4b5563;
+      margin-top: 1px;
+      line-height: 1.24;
+    }
+    .coursework-line strong {
+      color: #111827;
+    }
+
+    /* Technical Skills */
+    .skills-container {
+      font-size: 8.6pt;
+      line-height: 1.3;
+      color: #374151;
+    }
+    .skill-category {
+      font-weight: 700;
+      color: #111827;
+    }
+
+    /* Projects & Experience */
+    .project-item {
+      margin-bottom: 4px;
+    }
+    .project-item:last-child {
+      margin-bottom: 0;
+    }
+    .project-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      margin-bottom: 1px;
+    }
+    .project-name {
+      font-size: 8.9pt;
+      font-weight: 700;
+      color: #111827;
+    }
+    .project-tech {
+      font-size: 8.2pt;
+      font-weight: 600;
+      color: #4b5563;
+    }
+    .project-links {
+      font-size: 8.2pt;
+    }
+    .project-links a {
+      color: #2563eb;
+      text-decoration: none;
+      font-weight: 500;
+    }
+    .project-links a:hover {
+      text-decoration: underline;
+    }
+
+    /* Clean Bullet Points */
+    ul.simple-bullets {
+      list-style-type: disc;
+      margin-left: 15px;
+      margin-top: 1px;
+    }
+    ul.simple-bullets li {
+      font-size: 8.4pt;
+      color: #374151;
+      line-height: 1.23;
+      margin-bottom: 1px;
+      text-align: justify;
+    }
+    ul.simple-bullets li:last-child {
+      margin-bottom: 0;
+    }
+
+    /* Certifications, Strengths & Interests */
+    ul.cert-bullets {
+      list-style-type: disc;
+      margin-left: 15px;
+    }
+    ul.cert-bullets li {
+      font-size: 8.4pt;
+      color: #374151;
+      line-height: 1.23;
+      margin-bottom: 1px;
+    }
+    .strengths-text {
+      font-size: 8.4pt;
+      color: #374151;
+      line-height: 1.26;
+    }
+
+    /* Strict Single-Page Print Rules */
+    @page {
+      size: A4 portrait;
+      margin: 5.5mm 9mm 5.5mm 9mm;
+    }
+
+    @media print {
+      body {
+        background: #ffffff !important;
+        color: #000000 !important;
+        font-size: 8.2pt;
+      }
+      .no-print {
+        display: none !important;
+      }
+      .resume-sheet {
+        box-shadow: none !important;
+        padding: 0 !important;
+        margin: 0 !important;
+        width: 100% !important;
+        max-width: 100% !important;
+        border-radius: 0 !important;
+      }
+      a {
+        color: #000000 !important;
+        text-decoration: none !important;
+      }
+      header {
+        border-bottom: 1.5px solid #000000 !important;
+        padding-bottom: 3px;
+        margin-bottom: 3px;
+      }
+      .section-title {
+        border-bottom: 1px solid #4b5563 !important;
+        margin-bottom: 2px;
+      }
+      section {
+        margin-bottom: 3.5px;
+      }
+      ul.simple-bullets li {
+        font-size: 8pt;
+        line-height: 1.18;
+      }
+      ul.cert-bullets li {
+        font-size: 8pt;
+        line-height: 1.18;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Screen Action Bar -->
+  <div class="screen-action-bar no-print">
+    <div class="tip">
+      <strong>Simple &amp; Easy to Understand Resume</strong> &bull; 1-Page ATS Standard
+    </div>
+    <div class="action-group">
+      <button class="btn btn-print" onclick="window.print()">
+        <svg width="14" height="14" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="2">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M17 17h2a2 2 0 002-2v-4a2 2 0 00-2-2H5a2 2 0 00-2 2v4a2 2 0 002 2h2m2 4h6a2 2 0 002-2v-4H7v4a2 2 0 002 2zm8-12V5a2 2 0 00-2-2H9a2 2 0 00-2 2v4h10z"></path>
+        </svg>
+        Print / Save as PDF
+      </button>
+      <a href="index.html" class="btn btn-portfolio">
+        <svg width="14" height="14" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="2">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path>
+        </svg>
+        View Portfolio Web App
+      </a>
+    </div>
+  </div>
+
+  <!-- Main Single-Page Resume -->
+  <main class="resume-sheet">
+
+    <!-- Candidate Header -->
+    <header>
+      <h1 class="name">Thirukovalluri Sri Nikhil Balaji</h1>
+      <div class="contact-row">
+        <span>Almasguda, Hyderabad, Telangana, India</span>
+        <span class="divider-dot">&bull;</span>
+        <span>+91 9866609444</span>
+        <span class="divider-dot">&bull;</span>
+        <a href="mailto:nikhilbalaji53@gmail.com">nikhilbalaji53@gmail.com</a>
+      </div>
+      <div class="links-row">
+        <a href="https://[Portfolio-URL]" target="_blank" rel="noopener">Portfolio: [Portfolio Link]</a>
+        <span class="divider-dot" style="color: #9ca3af;">|</span>
+        <a href="https://github.com/nikhilbalaji53-beep" target="_blank" rel="noopener">GitHub: nikhilbalaji53-beep</a>
+        <span class="divider-dot" style="color: #9ca3af;">|</span>
+        <a href="https://www.linkedin.com/in/[LinkedIn-Username]" target="_blank" rel="noopener">LinkedIn: [LinkedIn Profile]</a>
+      </div>
+    </header>
+
+    <!-- Professional Summary -->
+    <section>
+      <h2 class="section-title">Summary</h2>
+      <p class="summary-text">
+        Motivated 3rd-year B.Tech Computer Science student with practical experience across Python, JavaScript, full-stack frameworks, and core DSA. Industry certified by IBM (AI &amp; Professional Skills), Tata (GenAI Data Analytics), and Deloitte (Data Analytics). Recognized Campus Ambassador for Gyantrix Academy and 24-hour hackathon builder in Smart Manufacturing MSME &amp; Industry 6.0 with proven self-directed learning and leadership initiative. Seeking a software engineering or AI/ML internship.
+      </p>
+    </section>
+
+    <!-- Education -->
+    <section>
+      <h2 class="section-title">Education</h2>
+      <div class="flex-header">
+        <span class="school-name">TRR College of Institutions</span>
+        <span class="school-location">Hyderabad, India</span>
+      </div>
+      <div class="flex-header">
+        <span class="degree-name">Bachelor of Technology (B.Tech) — Computer Science and Engineering</span>
+        <span class="degree-date">3rd Year &bull; Expected: 2028</span>
+      </div>
+      <div class="coursework-line">
+        <strong>CGPA:</strong> [Add CGPA] &nbsp;|&nbsp;
+        <strong>Coursework:</strong> Data Structures &amp; Algorithms (DSA), DBMS, Operating Systems, Computer Networks, OOP.
+      </div>
+
+      <div class="flex-header" style="margin-top: 2px;">
+        <span class="school-name">Sri Vasavi Junior College &mdash; Board of Intermediate Education, A.P.</span>
+        <span class="school-location">Cumbum, India</span>
+      </div>
+      <div class="flex-header">
+        <span class="degree-name">Intermediate (Class XII &mdash; MPC) &bull; A Grade</span>
+        <span class="degree-date">March 2024 &bull; <strong>88% (880/1000)</strong></span>
+      </div>
+
+      <div class="flex-header" style="margin-top: 2px;">
+        <span class="school-name">Sri Chaitanya High School &mdash; Board of Secondary Education, A.P.</span>
+        <span class="school-location">Prakasam, India</span>
+      </div>
+      <div class="flex-header">
+        <span class="degree-name">Secondary School Certificate (SSC &mdash; Class X) &bull; First Division</span>
+        <span class="degree-date">April 2022 &bull; <strong>86% (516/600)</strong></span>
+      </div>
+    </section>
+
+    <!-- Technical Skills -->
+    <section>
+      <h2 class="section-title">Technical Skills</h2>
+      <div class="skills-container">
+        <div><span class="skill-category">Programming Languages:</span> Python, JavaScript</div>
+        <div><span class="skill-category">Core Fundamentals:</span> Data Structures &amp; Algorithms (DSA), Object-Oriented Programming (OOP), Problem Solving</div>
+        <div><span class="skill-category">Web &amp; Frameworks:</span> React, Node.js, REST APIs</div>
+        <div><span class="skill-category">Databases:</span> SQL (PostgreSQL, MySQL), MongoDB</div>
+        <div><span class="skill-category">Developer Tools:</span> Git, GitHub, Docker, Linux/Unix, VS Code</div>
+        <div><span class="skill-category">Professional &amp; Soft Skills:</span> Technical Communication, Team Collaboration, Public Speaking &amp; Pitching, Agile Practices, Leadership</div>
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section>
+      <h2 class="section-title">Projects</h2>
+
+      <!-- Project 1 -->
+      <div class="project-item">
+        <div class="project-header">
+          <div>
+            <span class="project-name">Smart Inventory Management System</span>
+            <span class="project-tech"> &mdash; [Python, Django/REST APIs, PostgreSQL/MySQL, Dashboard UI]</span>
+          </div>
+          <div class="project-links">
+            <a href="https://github.com/nikhilbalaji53-beep/Smart-Inventory-System" target="_blank" rel="noopener">[GitHub]</a> |
+            <a href="https://[Live-Demo-URL]" target="_blank" rel="noopener">[Live Demo]</a>
+          </div>
+        </div>
+        <ul class="simple-bullets">
+          <li>Built an inventory management system to track products and monitor stock levels in real time.</li>
+          <li>Implemented stock prediction logic and automated alerts to notify users when items are running low.</li>
+          <li>Added product expiry date tracking to reduce perishable item waste and improve shelf-life auditing.</li>
+          <li>Designed an easy-to-use dashboard to visualize stock movements, alerts, and inventory health.</li>
+        </ul>
+      </div>
+
+      <!-- Project 2 -->
+      <div class="project-item">
+        <div class="project-header">
+          <div>
+            <span class="project-name">TradePilot AI — Market Analytics Dashboard</span>
+            <span class="project-tech"> &mdash; [Python, REST APIs, React, Data Analytics, AI/ML]</span>
+          </div>
+          <div class="project-links">
+            <a href="https://github.com/nikhilbalaji53-beep/ai-trade-manager" target="_blank" rel="noopener">[GitHub]</a> |
+            <a href="https://ai-trade-manager-2.onrender.com" target="_blank" rel="noopener">[Live Demo]</a>
+          </div>
+        </div>
+        <ul class="simple-bullets">
+          <li>Developed a market monitoring dashboard integrating real-time financial data feeds via REST APIs.</li>
+          <li>Built calculation modules for profit and loss (P&amp;L) tracking and historical market performance analysis.</li>
+          <li>Integrated AI-assisted pattern recognition models to provide clear market insights without speculative guarantees.</li>
+          <li>Designed an interactive dashboard interface for tracking stock indicators, volatility, and trends.</li>
+        </ul>
+      </div>
+
+      <!-- Project 3 -->
+      <div class="project-item">
+        <div class="project-header">
+          <div>
+            <span class="project-name">Smart Traffic Management System</span>
+            <span class="project-tech"> &mdash; [Python, OpenCV, Computer Vision, IoT Sensors, Django, PostgreSQL]</span>
+          </div>
+          <div class="project-links">
+            <a href="https://github.com/[GitHub-Username]/smart-traffic-mgmt" target="_blank" rel="noopener">[GitHub]</a> |
+            <a href="https://[Live-Demo-URL]" target="_blank" rel="noopener">[Live Demo]</a>
+          </div>
+        </div>
+        <ul class="simple-bullets">
+          <li>Built a computer vision pipeline using OpenCV to detect and count vehicles at intersections in real time, enabling adaptive signal prioritization.</li>
+          <li>Implemented a dynamic traffic signal timing engine that auto-adjusts green/red durations based on live traffic density and queue length.</li>
+          <li>Designed a congestion analytics dashboard for monitoring traffic flow, peak-hour patterns, and emergency vehicle preemption events.</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Hackathon & Campus Leadership -->
+    <section>
+      <h2 class="section-title">Hackathon &amp; Campus Leadership</h2>
+      <div class="project-item">
+        <div class="flex-header">
+          <span class="project-name">HACKVERSE-2K26 &mdash; Dept. of CSE &amp; IT, TRR College of Technology</span>
+          <span class="degree-date">August 18–19, 2026 &bull; 24-Hour Hackathon</span>
+        </div>
+        <div style="font-size: 8.4pt; color: #4b5563; margin-bottom: 1px;">
+          <strong>Domain:</strong> Smart Manufacturing MSME &amp; Industry 6.0 &nbsp;|&nbsp; <strong>Role:</strong> Software Development Team Member
+        </div>
+        <ul class="simple-bullets">
+          <li>Engineered a working software prototype during an intensive 24-hour sprint addressing Smart Manufacturing for MSMEs under Industry 6.0 standards.</li>
+          <li>Implemented backend logic and connected REST APIs to handle real-time telemetry, machine status, and inventory workflows for small enterprises.</li>
+        </ul>
+      </div>
+
+      <div class="project-item" style="margin-top: 3px;">
+        <div class="flex-header">
+          <span class="project-name">Campus Ambassador &mdash; Gyantrix Academy</span>
+          <span class="degree-date">April 2026 &bull; Student Leadership</span>
+        </div>
+        <ul class="simple-bullets">
+          <li>Selected as Campus Ambassador to lead student outreach, coordinate technical programs, and foster peer learning communities; awarded the official <strong>Certificate of Campus Ambassador</strong>.</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Industry Certifications -->
+    <section>
+      <h2 class="section-title">Industry Certifications</h2>
+      <ul class="cert-bullets">
+        <li><strong>Getting Started with Artificial Intelligence</strong> &mdash; <strong>IBM SkillsBuild</strong> (Credly, Aug 2026) &bull; <span style="color: #4b5563;">Core AI/ML principles, NLP &amp; neural networks</span></li>
+        <li><strong>GenAI Powered Data Analytics Job Simulation</strong> &mdash; <strong>Tata</strong> (Forage, July 2026) &bull; <span style="color: #4b5563;">AI delinquency prediction, EDA &amp; risk profiling</span></li>
+        <li><strong>Data Analytics Job Simulation</strong> &mdash; <strong>Deloitte</strong> (Forage, July 2026) &bull; <span style="color: #4b5563;">Enterprise data analysis &amp; forensic technology</span></li>
+        <li><strong>Lifelong Professional Skills &amp; Customer Engagement</strong> &mdash; <strong>IBM SkillsBuild</strong> (Credly, 2026) &bull; <span style="color: #4b5563;">Workplace communication &amp; stakeholder management</span></li>
+      </ul>
+    </section>
+
+    <!-- Core Strengths & Leadership -->
+    <section>
+      <h2 class="section-title">Core Strengths &amp; Leadership</h2>
+      <p class="strengths-text">
+        Leadership &amp; Initiative &bull; Self-Directed Learning &bull; Problem Solving &bull; Aggressive Growth Metrics &bull; Analytical Thinking &bull; Team Collaboration
+      </p>
+    </section>
+
+    <!-- Hobbies & Interests -->
+    <section>
+      <h2 class="section-title">Hobbies &amp; Interests</h2>
+      <p class="strengths-text">
+        Competitive Programming &bull; Chess &bull; Content Creation &bull; eSports &amp; Strategy Gaming &bull; Mind Games &amp; Logic Puzzles
+      </p>
+    </section>
+
+  </main>
+
+</body>
+</html>
