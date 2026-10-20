@@ -28,10 +28,10 @@ Sri Chaitanya High School, Prakasam | Board of Secondary Education, Andhra Prade
 
 ## Technical Skills
 - **Programming Languages:** Python, JavaScript  
-- **Core Fundamentals:** Data Structures & Algorithms (DSA), Object-Oriented Programming (OOP), Problem Solving  
-- **Web & Frameworks:** React, Node.js, REST APIs  
-- **Databases:** SQL (PostgreSQL, MySQL), MongoDB  
-- **Developer Tools & Platforms:** Git, GitHub, Docker, Linux/Unix, VS Code  
+- **Core Fundamentals:** Data Structures & Algorithms (DSA), Problem Solving  
+- **Web & Frameworks:** React, Node.js  
+- **Databases:** SQL (PostgreSQL, MySQL)  
+- **Developer Tools & Platforms:** Git, GitHub, VS Code  
 - **Professional & Soft Skills:** Technical Communication, Team Collaboration, Public Speaking & Pitching, Agile & Scrum Practices, Leadership, Peer Mentorship  
 
 ---
@@ -39,24 +39,16 @@ Sri Chaitanya High School, Prakasam | Board of Secondary Education, Andhra Prade
 ## Projects
 
 ### Smart Inventory Management System
-*Technologies: Python, Django/REST APIs, PostgreSQL/MySQL, Dashboard UI* | [GitHub](https://github.com/nikhilbalaji53-beep/Smart-Inventory-System) | [Live Demo](https://[Live-Demo-URL])
-- Built a centralized inventory management system to track products and monitor stock levels in real time.
-- Implemented stock prediction logic and automated alerts to notify users when items are running low.
-- Added product expiry date tracking to reduce perishable item waste and improve shelf-life auditing.
-- Designed an easy-to-use dashboard to visualize stock movements, alerts, and inventory health.
+*Technologies: Python, Django, PostgreSQL/MySQL, Dashboard UI* | [GitHub](https://github.com/nikhilbalaji53-beep/Smart-Inventory-System) | [Live Demo](https://[Live-Demo-URL])
+- Built an inventory management system to track products and monitor stock levels in real time with automated alerts.
 
 ### TradePilot AI — Market Analytics Dashboard
-*Technologies: Python, REST APIs, React, Data Analytics, AI/ML* | [GitHub](https://github.com/nikhilbalaji53-beep/ai-trade-manager) | [Live Demo](https://ai-trade-manager-2.onrender.com)
-- Developed a market monitoring dashboard integrating real-time financial data feeds via REST APIs.
-- Built computation modules for profit and loss (P&L) tracking and historical market performance analysis.
-- Integrated AI-assisted pattern recognition models to provide clear market insights without speculative guarantees.
-- Designed an interactive dashboard interface for tracking stock indicators, volatility, and trends.
+*Technologies: Python, React, Data Analytics, AI/ML* | [GitHub](https://github.com/nikhilbalaji53-beep/ai-trade-manager) | [Live Demo](https://ai-trade-manager-2.onrender.com)
+- Developed an interactive market monitoring dashboard integrating real-time financial data feeds, P&L tracking, and AI-assisted insights.
 
 ### RecallAI — Customer Support Agent (Microsoft Hackathon)
-*Technologies: Python, FastAPI, React 19, TypeScript, Microsoft Fluent UI, RAG, WebSockets, Docker* | [GitHub](https://github.com/nikhilbalaji53-beep/smart-connections-ai) | [Live Demo](https://recallai-bev2.onrender.com/)
-- Architected an autonomous customer support agent for the Microsoft Hackathon featuring persistent cross-session memory and zero-repetition troubleshooting.
-- Engineered proactive history validation that audits past interactions to eliminate previously failed resolution steps and reduce customer effort.
-- Developed transparent "Memory Used" inspection telemetry and automated Tier-3 escalation handoff briefs with user sentiment calibration.
+*Technologies: Python, FastAPI, React 19, TypeScript, Microsoft Fluent UI, RAG, WebSockets* | [GitHub](https://github.com/nikhilbalaji53-beep/smart-connections-ai) | [Live Demo](https://recallai-bev2.onrender.com/)
+- Architected an autonomous customer support agent featuring persistent cross-session memory and proactive history validation for zero-repetition troubleshooting.
 
 ---
 
@@ -65,26 +57,19 @@ Sri Chaitanya High School, Prakasam | Board of Secondary Education, Andhra Prade
 ### HACKVERSE-2K26 — 24-Hour Hackathon
 **Dept. of CSE & IT, TRR College of Technology** | *August 18–19, 2026*  
 *Domain: Smart Manufacturing MSME & Industry 6.0* | Role: Software Development Team Member  
-- Engineered a functional software prototype during an intensive 24-hour sprint addressing Smart Manufacturing challenges for MSMEs under Industry 6.0 paradigms.
-- Designed backend services and connected REST APIs to handle real-time telemetry, machine workflow tracking, and production inventory visibility.
-- Collaborated in an agile team, debugging issues rapidly under strict time constraints, successfully demonstrating the prototype to industry partners.
+- Engineered a functional software prototype for Smart Manufacturing MSMEs during an intensive 24-hour sprint.
 
 ### Campus Ambassador — Gyantrix Academy
 *April 2026* | Role: Student Leadership & Campus Outreach  
-- Selected as Campus Ambassador to lead student outreach, represent technical education initiatives, and foster peer learning communities across the college.
-- Awarded the official **Certificate of Campus Ambassador** for exceptional leadership qualities, communication skills, and student engagement.
+- Selected as Campus Ambassador to lead student outreach, represent technical education initiatives, and foster peer learning communities across the college; awarded the official **Certificate of Campus Ambassador**.
 
 ---
 
 ## Industry Certifications
-- **Getting Started with Artificial Intelligence** — **IBM SkillsBuild** (Credly Verified, Aug 2026)  
-  *Core AI principles, machine learning concepts, neural networks, natural language processing, and ethical AI.*
-- **GenAI Powered Data Analytics Job Simulation** — **Tata** (Issued by Forage, July 2026)  
-  *Exploratory data analysis, risk profiling, delinquency prediction with AI, and AI-driven collections strategy.*
-- **Data Analytics Job Simulation** — **Deloitte** (Issued by Forage, July 2026)  
-  *Enterprise data analysis, forensic technology workflows, and structured business insights.*
-- **Lifelong Professional Skills & Customer Engagement** — **IBM SkillsBuild** (Credly Verified, 2026)  
-  *Professional communication, stakeholder management, problem solving, and workplace excellence.*
+- **Getting Started with Artificial Intelligence** — IBM SkillsBuild
+- **GenAI Powered Data Analytics Job Simulation** — Tata
+- **Data Analytics Job Simulation** — Deloitte
+- **Lifelong Professional Skills & Customer Engagement** — IBM SkillsBuild
 
 ---
 
@@ -94,4 +79,4 @@ Leadership & Initiative • Communication & Public Speaking • Self-Directed Le
 ---
 
 ## Hobbies & Interests
-Competitive Programming • Chess • Content Creation • eSports & Strategy Gaming • Mind Games & Logic Puzzles
+Chess • Content Creation • eSports & Strategy Gaming • Mind Games & Logic Puzzles
