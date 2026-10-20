@@ -1,6 +1,6 @@
 # Thirukovalluri Sri Nikhil Balaji
 **Hyderabad, Telangana, India** | **+91 9866609444** | **nikhilbalaji53@gmail.com**  
-[LinkedIn](https://www.linkedin.com/in/nikhil-thirukkovalluri-966692316) | [GitHub](https://github.com/nikhilbalaji53-beep) | [Portfolio](https://nikhil-balaji-portfolio.onrender.com)
+[LinkedIn](https://www.linkedin.com/in/nikhil-thirukkovalluri-966692316) | [GitHub](https://github.com/nikhilbalaji53-beep) | [Portfolio](https://portfolio-oub6.onrender.com)
 
 ---
 
