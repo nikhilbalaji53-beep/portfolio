@@ -38,17 +38,17 @@ Sri Chaitanya High School, Prakasam | Board of Secondary Education, Andhra Prade
 
 ## Projects
 
+### College Notice Board
+*Technologies: React, Node.js, Express, MongoDB/SQL* | [GitHub](https://github.com/nikhilbalaji53-beep) | [Live Demo](https://[Live-Demo-URL])
+
 ### Smart Inventory Management System
 *Technologies: Python, Django, PostgreSQL/MySQL, Dashboard UI* | [GitHub](https://github.com/nikhilbalaji53-beep/Smart-Inventory-System) | [Live Demo](https://[Live-Demo-URL])
-- Built an inventory management system to track products and monitor stock levels in real time with automated alerts.
 
 ### TradePilot AI — Market Analytics Dashboard
 *Technologies: Python, React, Data Analytics, AI/ML* | [GitHub](https://github.com/nikhilbalaji53-beep/ai-trade-manager) | [Live Demo](https://ai-trade-manager-2.onrender.com)
-- Developed an interactive market monitoring dashboard integrating real-time financial data feeds, P&L tracking, and AI-assisted insights.
 
 ### RecallAI — Customer Support Agent (Microsoft Hackathon)
 *Technologies: Python, FastAPI, React 19, TypeScript, Microsoft Fluent UI, RAG, WebSockets* | [GitHub](https://github.com/nikhilbalaji53-beep/smart-connections-ai) | [Live Demo](https://recallai-bev2.onrender.com/)
-- Architected an autonomous customer support agent featuring persistent cross-session memory and proactive history validation for zero-repetition troubleshooting.
 
 ---
 
