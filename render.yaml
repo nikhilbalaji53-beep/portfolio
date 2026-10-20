@@ -4,3 +4,5 @@ services:
     runtime: static
     buildCommand: ""
     staticPublishPath: .
+    autoDeploy: true
+
